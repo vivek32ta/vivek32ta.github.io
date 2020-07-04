@@ -328,7 +328,7 @@ h1.heading.pink:after {
 /* Sub-footer */
 .sub-footer {
   background-color: #322e45;
-  padding: 2em;
+  padding: 0.5em;
   color: #a3a1ac;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -466,16 +466,19 @@ ul.main-nav.show-it {
   h1.heading {
     font-size: 2em;
   }
+  header.hero .hero-text {
+    margin-top: 40%;
+  }
+ 
+  
   header.hero {
-    background: url(../assets/hero-m.jpg) no-repeat center fixed;
+    background: url(../assets/hero-m1.jpg) no-repeat center fixed;
     background-size:cover;
     background-position: 25%;
 
     padding-bottom: 0;
   }
-  header.hero .btn {
-    transform: translateX(65%);
-  }
+
   header.hero h1 {
     font-size: 2em;
     margin-top: 1.5em;
@@ -484,7 +487,13 @@ ul.main-nav.show-it {
   header.hero h3 {
     font-size: 1.2em;
     line-height: 1.6em;
+    margin-left: 50%;
     text-align: right;
+  }
+  header.hero .btn {
+    /*transform: translateX(65%); */
+    margin-left: 40%;
+    margin-bottom: 80%;
   }
   ul.social-links li.label {
     display: block;
@@ -546,7 +555,7 @@ ul.main-nav.show-it {
     padding: 1em 0em;
   }
   .foot-text p {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   .foot-myname h1 {
     font-size: 1.8em;
