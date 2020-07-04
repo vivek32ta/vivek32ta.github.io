@@ -322,7 +322,7 @@ h1.heading.pink:after {
   padding-right: 12px;
 }
 .footer ul.social-links li a img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /* Sub-footer */
@@ -502,6 +502,9 @@ ul.main-nav.show-it {
   }
   ul.social-links li a {
     opacity: 1;
+  }
+  .footer ul.social-links li a img {
+    max-height: 30px;
   }
   .testimonial {
     min-height: 50px;
